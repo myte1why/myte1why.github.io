@@ -1,0 +1,61 @@
+{
+  "hello": "Selam, ben Murat",
+  "hakkimda": "Oyuncu, programcı,kitap kurdu ve sürekli yeni şeyler öğrenmeye meraklı bir kişiyim. internet tabanlı programlama ile uğraşıyorum. SQL, PHP, Javascript, CSS/SASS ve tabiki HTML konularında kendimi geliştirmeye çalışıyorum. Daha önceleri Drupal ve Android programlama üzerine çalışmalarım oldu. Bazı çalışamalarımı ve iletişim bilgilerimi aşağıda bulabilirsiniz",
+  "email":"murathasdemir0@gmail.com",
+  "projeler": [
+    {
+      "link":"www.nayde.net",
+      "name":"Nayde",
+      "img":"./img/nayde.png",
+      "desc":"Lokasyon temelli arama motoru",
+      "know":[
+        "PHP","JAVASCRİPT","HTML","CSS"
+        ]
+    },
+    {
+      "link":"www.tabiphane.com",
+      "name":"Tabiphane",
+      "img":"",
+      "desc":"Tıbbı araştırmalar ile ilgili haberler",
+      "know":[
+        "PHP","JAVASCRİPT","HTML","CSS"
+        ]
+    },
+    { 
+      "link":"www.vetline.com.tr",
+      "name":"Vetline",
+      "img":"",
+      "desc":"İstanbul'da bulunan bir hayvan hastanesi sitesi",
+      "know":[
+        "DRUPAL","CSS"
+        ]
+    },
+    {
+      "link":"https://myte1why.github.io/accessible_frog/",
+      "name":"Accessible Frog",
+      "img":"",
+      "desc":"İnternet site erişilebilirlik çalışması",
+      "know":[
+          "HTML","CSS"
+        ]
+    },
+    {
+      "link":"https://myte1why.github.io/project_10/",
+      "name":"OMDB MCU list",
+      "img":"",
+      "desc":"OMDB sitesi aracılığıyla yapılmış Marverl evreni filmleri ile ilgili tanıtım sayfası.",
+      "know":[
+          "JAVASCRİPT","HTML","CSS"
+        ]
+    },
+    {
+      "link":"https://myte1why.github.io/loadingoptimization/",
+      "name":"Optimization workflow",
+      "img":"",
+      "desc":"bahsi geçen internet sitesi yüklenme hızı ile ilgili çalışma.",
+      "know":[
+        "JAVASCRİPT","HTML","CSS"
+        ]
+    }
+  ]
+}
