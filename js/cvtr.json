@@ -13,7 +13,7 @@
         ]
     },
     {
-      "link":"www.tabiphane.com",
+      "link":"http://www.tabiphane.com",
       "name":"Tabiphane",
       "img":"",
       "desc":"Tıbbı araştırmalar ile ilgili haberler",
@@ -22,7 +22,7 @@
         ]
     },
     { 
-      "link":"www.vetline.com.tr",
+      "link":"http://www.vetline.com.tr",
       "name":"Vetline",
       "img":"",
       "desc":"İstanbul'da bulunan bir hayvan hastanesi sitesi",
