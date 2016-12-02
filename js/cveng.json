@@ -1,13 +1,13 @@
 {
   "hello": "Selam, ben Murat",
-  "hakkimda": "Programcı, kitap kurdu, oyuncu ve sürekli yeni şeyler öğrenmeye meraklı bir kişiyim. SQL, PHP, Javascript, CSS/SASS ve tabiki HTML konularında kendimi geliştirmeye çalışıyorum. Daha önceleri Drupal ve Android programlama üzerine çalışmalarım oldu. Bazı çalışamalarımı ve iletişim bilgilerimi aşağıda bulabilirsiniz",
+  "hakkimda": "I'm programmer, gamer,bookworm and love to learn new things. I try to get better on SQL, PHP, JavaScript, CSS/SASS and HTML. I did some Drupal sites and tinker around Android. You can find some of my works and practices down below.",
   "email":"murathasdemir0@gmail.com",
   "projeler": [
     {
       "link":"http://www.nayde.net",
       "name":"Nayde",
       "img":"./img/nayde.png",
-      "desc":"Lokasyon temelli arama motoru",
+      "desc":"Geolocation search engine for companies backbone.",
       "know":[
         "PHP","JAVASCRİPT","HTML","CSS"
         ]
@@ -16,7 +16,7 @@
       "link":"http://www.tabiphane.com",
       "name":"Tabiphane",
       "img":"./img/logo.png",
-      "desc":"Tıbbı araştırmalar ile ilgili haberler",
+      "desc":"News on medical researches.",
       "know":[
         "PHP","JAVASCRİPT","HTML","CSS"
         ]
@@ -25,16 +25,16 @@
       "link":"http://www.vetline.com.tr",
       "name":"Vetline",
       "img":"./img/vatline.png",
-      "desc":"İstanbul'da bulunan bir hayvan hastanesi sitesi",
+      "desc":"Website for an Animal hospital named VETLİNE",
       "know":[
         "DRUPAL","CSS"
         ]
     },
     {
-      "link":"https://myte1why.github.i /accessible_frog/",
+      "link":"https://myte1why.github.io/accessible_frog/",
       "name":"Accessible Frog",
       "img":"./img/concert01.jpg",
-      "desc":"İnternet site erişilebilirlik çalışması",
+      "desc":"Accessibility work on a website.",
       "know":[
           "HTML","CSS"
         ]
@@ -43,7 +43,7 @@
       "link":"https://myte1why.github.io/project_10/",
       "name":"OMDB MCU list",
       "img":"./img/marvel.png",
-      "desc":"OMDB sitesi aracılığıyla yapılmış Marverl evreni filmleri ile ilgili tanıtım sayfası.",
+      "desc":"Website which contains information and links of MCU movies.",
       "know":[
           "JAVASCRİPT","HTML","CSS"
         ]
@@ -52,7 +52,7 @@
       "link":"https://myte1why.github.io/loadingoptimization/",
       "name":"Optimization workflow",
       "img":"./img/performance.png",
-      "desc":"bahsi geçen internet sitesi yüklenme hızı ile ilgili çalışma.",
+      "desc":"Optimizing of a Site for Performance.",
       "know":[
         "JAVASCRİPT","HTML","CSS"
         ]
