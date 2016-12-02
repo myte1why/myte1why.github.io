@@ -43,7 +43,7 @@
       "link":"https://myte1why.github.io/project_10/",
       "name":"OMDB MCU list",
       "img":"./img/marvel.png",
-      "desc":"Website which contains information and links of MCU movies.",
+      "desc":"Website which contains information about MCU movies.",
       "know":[
           "JAVASCRİPT","HTML","CSS"
         ]
