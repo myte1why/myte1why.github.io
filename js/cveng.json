@@ -2,11 +2,32 @@
   "hello": "Selam, ben Murat",
   "hakkimda": "I'm programmer, gamer,bookworm and love to learn new things. I try to get better on SQL, PHP, JavaScript, CSS/SASS and HTML. I did some Drupal sites and tinker around Android. You can find some of my works and practices down below.",
   "email":"murathasdemir0@gmail.com",
+    "konu":[
+      "php",
+      "html",
+      "css",
+      "sass",
+      "javascript",
+      "drupal",
+      "android" 
+    ],
+    "konuBilgi":[
+      7.5,8,7,7,6,2,2.5
+    ],
+    "konuRenk":[
+      "#6181b6",
+      "#f16529",
+      "#1572b6",
+      "#cf649a",
+      "#f0db4f",
+      "#3078a3",
+      "#a4c439"
+    ],
   "projeler": [
     {
       "link":"http://www.nayde.net",
       "name":"Nayde",
-      "img":"./img/nayde.png",
+      "img":"./img/nayde.jpg",
       "desc":"Geolocation search engine for companies backbone.",
       "know":[
         "PHP","JAVASCRİPT","HTML","CSS"
@@ -59,7 +80,7 @@
     },
     {
       "link":"https://play.google.com/store/apps/details?id=gadgetbazaar.dadjokesforstarters",
-      "name":"Optimization workflow",
+      "name":"Dad Joke's for Starters",
       "img":"./img/djfs.png",
       "desc":"English Android Application.Dad Joke's for Starters is a personal education project for me.It carries around hundred jokes collected from web.",
       "know":[

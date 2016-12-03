@@ -2,11 +2,32 @@
   "hello": "Selam, ben Murat",
   "hakkimda": "Programcı, kitap kurdu, oyuncu ve sürekli yeni şeyler öğrenmeye meraklı bir kişiyim. SQL, PHP, Javascript, CSS/SASS ve tabiki HTML konularında kendimi geliştirmeye çalışıyorum. Daha önceleri Drupal ve Android programlama üzerine çalışmalarım oldu. Bazı çalışamalarımı ve iletişim bilgilerimi aşağıda bulabilirsiniz",
   "email":"murathasdemir0@gmail.com",
+    "konu":[
+      "php",
+      "html",
+      "css",
+      "sass",
+      "javascript",
+      "drupal",
+      "android" 
+    ],
+    "konuBilgi":[
+      7.5,8,7,7,6,2,2.5
+    ],
+    "konuRenk":[
+      "#6181b6",
+      "#f16529",
+      "#1572b6",
+      "#cf649a",
+      "#f0db4f",
+      "#3078a3",
+      "#a4c439"
+    ],
   "projeler": [
     {
       "link":"http://www.nayde.net",
       "name":"Nayde",
-      "img":"./img/nayde.png",
+      "img":"./img/nayde.jpg",
       "desc":"Lokasyon temelli arama motoru",
       "know":[
         "PHP","JAVASCRİPT","HTML","CSS"
@@ -59,7 +80,7 @@
     },
     {
       "link":"https://play.google.com/store/apps/details?id=gadgetbazaar.dadjokesforstarters",
-      "name":"Optimization workflow",
+      "name":"Dad Joke's for Starters",
       "img":"./img/djfs.png",
       "desc":"İngilizce Android Uygulaması.Dad Joke's for Starters kişisel eğitim amacı ile yazılmış bir uygulamadır.Yaklaşık olarak yüz adet şaka içermektedir.",
       "know":[

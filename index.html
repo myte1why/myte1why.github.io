@@ -63,8 +63,8 @@
     <div class="main-nav">
         <ul class="nav">
 			<li class="name"><a href="#up">Murat Hasdemir</a></li>
-			<li><a id="personalLi" href="#about"></a></li>
-			<li><a id="portfolyoLi" href="#portfolyo"></a></li>
+			<li><a id="personalLi" href="#aboutAnchor"></a></li>
+			<li><a id="portfolyoLi" href="#portfolyoAnchor"></a></li>
 			<li>
 				<ul>
 					<li>
@@ -88,15 +88,25 @@
 		</ul>
     </div>
 
-    <header>
-      <h1 id="hello" class="tag name"></h1>
-    </header>
-    <div id="about" ></div>
+    <span id="aboutAnchor"></span>
+	    <header>
+	      <h1 id="hello" class="tag name"></h1>
+	    </header>
+    <div class="me">
+    	<img class="avatar" src="./img/murat.png">
+	    <div id="char">
+		    <canvas id="myChart" width="4" height="4"></canvas>
+	    </div>
+	    <div id="about" ></div>
+	</div>	
+    <span id="portfolyoAnchor"></span>
     <div id="portfolyo"></div>
+
     <footer id="foot">
       <p class="copyright">Copyright 2016, Murat Hasdemir</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
         <script src="js/js.min.js"></script>
 </body>
 </html>
