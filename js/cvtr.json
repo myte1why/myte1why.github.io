@@ -56,6 +56,15 @@
       "know":[
         "JAVASCRİPT","HTML","CSS"
         ]
+    },
+    {
+      "link":"https://play.google.com/store/apps/details?id=gadgetbazaar.dadjokesforstarters",
+      "name":"Optimization workflow",
+      "img":"./img/djfs.png",
+      "desc":"İngilizce Android Uygulaması.Dad Joke's for Starters kişisel eğitim amacı ile yazılmış bir uygulamadır.Yaklaşık olarak yüz adet şaka içermektedir.",
+      "know":[
+        "android"
+        ]
     }
   ]
 }

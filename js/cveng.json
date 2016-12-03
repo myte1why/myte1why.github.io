@@ -56,6 +56,15 @@
       "know":[
         "JAVASCRİPT","HTML","CSS"
         ]
+    },
+    {
+      "link":"https://play.google.com/store/apps/details?id=gadgetbazaar.dadjokesforstarters",
+      "name":"Optimization workflow",
+      "img":"./img/djfs.png",
+      "desc":"English Android Application.Dad Joke's for Starters is a personal education project for me.It carries around hundred jokes collected from web.",
+      "know":[
+        "android"
+        ]
     }
   ]
 }
