@@ -29,6 +29,12 @@
       "name":"Nayde",
       "img":"./img/nayde.jpg",
       "desc":"Lokasyon temelli arama motoru",
+      "used_know":[
+          "PHP ile sistemin çalışması için gereken arama fonksiyonları hazırlandı.",
+          "PHP ile üyelik sistemi hazırlandı.",
+          "Bootstrap sistemi ile görüntüler düzenlendi.",
+          "Google Haritalar sistemi javascript alt yapısı ile entegre edildi."
+        ],
       "know":[
         "PHP","JAVASCRİPT","HTML","CSS"
         ]
@@ -38,6 +44,12 @@
       "name":"Tabiphane",
       "img":"./img/logo.png",
       "desc":"Tıbbı araştırmalar ile ilgili haberler",
+      "used_know":[
+            "PHP ile üyelik sistemi hazırlandı.",
+            "PHP ile yazar sistemi hazırlandı.",
+            "PHP ile yorum sistemi hazırlandı",
+            "Sass ile site görselleri hazırlandı",
+            "Sitede kullanılan görseller için kullanılan cihazlara uyum sağlaması sağlandı."],
       "know":[
         "PHP","JAVASCRİPT","HTML","CSS"
         ]
@@ -47,15 +59,21 @@
       "name":"Vetline",
       "img":"./img/vatline.png",
       "desc":"İstanbul'da bulunan bir hayvan hastanesi sitesi",
+      "used_know":[
+            "Drupal içerik yönetim sistemi ile sayfa hazırlandı.",
+            "CSS ile site görünümü oluşturuldu."],
       "know":[
         "DRUPAL","CSS"
         ]
     },
     {
-      "link":"https://myte1why.github.i /accessible_frog/",
+      "link":"https://myte1why.github.io/accessible_frog/",
       "name":"Accessible Frog",
       "img":"./img/concert01.jpg",
       "desc":"İnternet site erişilebilirlik çalışması",
+      "used_know":[
+              "CSS: Site görselleri görme sıkıntılarına karşı ayarlandı.",
+              "HTML: İçerik ekran okuma programlarına uygun hale getirildi."],
       "know":[
           "HTML","CSS"
         ]
@@ -65,6 +83,10 @@
       "name":"OMDB MCU list",
       "img":"./img/marvel.png",
       "desc":"OMDB sitesi aracılığıyla yapılmış Marverl evreni filmleri ile ilgili tanıtım sayfası.",
+      "used_know":[
+            "JAVASCRİPT: OMDB sistemine bağlanılarak film bilgileri alındı.",
+            "HTML: Alınan verilerin düzgün bir şekilde görüntülenmesi sağlandı.",
+            "CSS: sitenin temiz ve anlaşılır olarak görüntülenmesi sağlandı."],
       "know":[
           "JAVASCRİPT","HTML","CSS"
         ]
@@ -74,6 +96,10 @@
       "name":"Optimization workflow",
       "img":"./img/performance.png",
       "desc":"bahsi geçen internet sitesi yüklenme hızı ile ilgili çalışma.",
+      "used_know":[
+              "JAVASCRİPT: GULP altyapısı ile içerikte kullanılan kaynak kodların daha yüksek hızda yüklenmesi için optimzasyon çalışmması yapıldı.",
+              "İçerik: Kullanılan resimlerin boyutları içerikte kullanıldığı yere göre yeniden boyutlandırıldı.",
+              "CSS: Görüntü düzeltmeleri yapıldı."],
       "know":[
         "JAVASCRİPT","HTML","CSS"
         ]
@@ -83,6 +109,7 @@
       "name":"Dad Joke's for Starters",
       "img":"./img/djfs.png",
       "desc":"İngilizce Android Uygulaması.Dad Joke's for Starters kişisel eğitim amacı ile yazılmış bir uygulamadır.Yaklaşık olarak yüz adet şaka içermektedir.",
+      "used_know":["Android: sistemin kendi içinde bulunan bilgi bankasından rastgele bir girdiyi seçip görüntülemesi için programlandı."],
       "know":[
         "android"
         ]

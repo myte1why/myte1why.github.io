@@ -29,6 +29,12 @@
       "name":"Nayde",
       "img":"./img/nayde.jpg",
       "desc":"Geolocation search engine for companies backbone.",
+      "used_know":[
+            "PHP: created search functions.",
+            "PHP: created user system.",
+            "CSS: used Bootstrap frame work to make graphical interface.",
+            "JAVASCRIPT: Google maps api integrated."
+        ],
       "know":[
         "PHP","JAVASCRİPT","HTML","CSS"
         ]
@@ -38,6 +44,11 @@
       "name":"Tabiphane",
       "img":"./img/logo.png",
       "desc":"News on medical researches.",
+      "used_know":[
+            "PHP: backend of app created.",
+            "CSS: SASS used to create use interface.",
+            "Optimization: images and other multimedia items optimized for best loading times and usability."
+        ],
       "know":[
         "PHP","JAVASCRİPT","HTML","CSS"
         ]
@@ -47,6 +58,10 @@
       "name":"Vetline",
       "img":"./img/vatline.png",
       "desc":"Website for an Animal hospital named VETLİNE",
+      "used_know":[
+            "DRUPAL: CMS installed for backbone of website.",
+            "CSS: Theme created for CMS."
+        ],
       "know":[
         "DRUPAL","CSS"
         ]
@@ -56,6 +71,10 @@
       "name":"Accessible Frog",
       "img":"./img/concert01.jpg",
       "desc":"Accessibility work on a website.",
+      "used_know":[
+            "HTML: site optimized for screen readers.",
+            "CSS: user interface optimized for visual impairments."
+        ],
       "know":[
           "HTML","CSS"
         ]
@@ -65,6 +84,11 @@
       "name":"OMDB MCU list",
       "img":"./img/marvel.png",
       "desc":"Website which contains information about MCU movies.",
+      "used_know":[
+            "JAVASCRIPT: used AJAX to get info from OMDB.",
+            "HTML: created clean user interface for site.",
+            "CSS: created screen orientations."
+        ],
       "know":[
           "JAVASCRİPT","HTML","CSS"
         ]
@@ -74,6 +98,10 @@
       "name":"Optimization workflow",
       "img":"./img/performance.png",
       "desc":"Optimizing of a Site for Performance.",
+      "used_know":[
+            "JAVASCRIPT: GULP used for minifying source code.",
+            "CSS: Images resized for better optimization."
+        ],
       "know":[
         "JAVASCRİPT","HTML","CSS"
         ]
@@ -83,6 +111,9 @@
       "name":"Dad Joke's for Starters",
       "img":"./img/djfs.png",
       "desc":"English Android Application.Dad Joke's for Starters is a personal education project for me.It carries around hundred jokes collected from web.",
+      "used_know":[
+            "Android: database created, random row selector created, user interface created."
+        ],
       "know":[
         "android"
         ]
