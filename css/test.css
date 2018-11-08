@@ -1,0 +1,291 @@
+html,
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+nav{
+    display: block;
+    width: 100%;
+    background: darkturquoise;
+  }
+  nav .nam{
+    margin-right: auto;
+    font-size: 2em;
+    margin-left: .5em;
+
+  }
+  nav .nam a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+nav label{
+
+    margin-right: 1em;
+}
+svg.flag {
+    height: 2em;
+    width: 2em;
+}
+ul.part-menu {
+    background: paleturquoise;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+img.profile_img {
+    margin: 0 1em 1em 0;
+    border: 1em inset darkturquoise;
+}
+
+.profile_card h1{
+    width: 100%;
+}
+
+.proje {
+    width: 75%;
+}
+span.projeler {
+   display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+ul.proje_nav li{
+  height: 1.1em;
+  width: 100%;
+}
+ul.proje_nav li label{
+  display: block;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+ul.used_lang{
+  display: inline-flex;
+
+}
+ul.used_lang li svg{
+  width: 2em;
+  height: 2em;
+}
+
+
+span.ileti {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+span.ileti a{
+  margin-right: 1em;
+}
+svg.ileti-svg {
+    height: 2em;
+    width: 2em;
+}
+ul.ileti {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+ul.ileti li {
+    margin-bottom: 1em;
+}
+ul.ileti li svg{
+  margin-right: 1em;
+}
+ul.kod_link {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.card_svg svg{
+    float: left;
+    width: 5em;
+    height: 5em;
+    margin-right: 1em;
+  }
+svg.headLinks {
+    fill: #05e1e4;
+    width: 1.5em;
+    height: 1.5em;
+    margin: .25em 0;
+}
+svg.headLinks:hover {
+    fill: #afeeee;
+}
+
+/*
+Tab cssleri
+*/
+.tabset > input[type="radio"] {
+  display: none;
+}
+.tab-panels{
+  width: 98vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+/*
+ Styling
+*/
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #06c;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #06c;
+}
+
+.tabset > input:checked + label {
+}
+
+.tab-panel {
+}
+
+.tabset {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+/*  --------------------- */
+
+
+.block {
+  width: 100%;
+}
+.block > div {
+  display: block;
+  position: relative;
+  color: black;
+}
+
+.block > div input + label {
+  cursor: pointer;
+  transition: all 0.25s ease-in-out 0.5s, color 0.25s ease-in-out 0.5s;
+  color: red;
+}
+.block > div input ~ div {
+  display: none;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.5s ease-in-out 0.2s, opacity 0.25s ease-in-out 0.25s, padding 0s ease-in-out 0s;
+}
+ul.part-menu {
+    margin-bottom: 1em;
+}
+.block > div input:checked + label {
+  transition: background-color 0s ease-in-out 0s;
+  color: black;
+}
+.block > div input:checked ~ div {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-in-out 0.2s, opacity 0.25s ease-in-out 0.5s, padding 0s ease-in-out 0s;
+}
+
+
+
+
+
+
+@media (max-width: 719px){
+  .block {
+      padding: 0 1vw;
+    }
+  img.profile_img {
+        width: 90vw;
+    }ul.part-menu {
+    background: paleturquoise;
+    display: block;
+}
+}
+@media (min-width: 720px){
+    nav{
+      display: inline-flex;
+      flex-direction: row;
+      border-radius: 1em 1em 0 0;
+      padding: .5em 0 0;
+    }
+    nav .nam{
+      margin-right: auto;
+    }
+    ul.part-menu {
+      width: 100%;
+        border-radius: 0 0 1em 1em;
+    }
+  ul.part-menu li{
+    margin: .1em .3em;
+  }
+  .part-menu label {
+        line-height: 2em;
+    }
+    .tabset{
+    width: 90vw;
+    margin: 1em 4vw 0;
+  }
+  ul.proje_nav {
+      width: 25%;
+  }
+  .proje_display {
+      width: 74%;
+  }
+  span.bilgi {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  ul.bilgi_nav {
+    width: 15%;
+  }
+  .bilgi_display {
+    width: 84%;
+  }
+  
+}
+
+@media (min-width: 1079px){
+  .tabset{
+    width: 1024px;
+    margin: 1em calc(calc(100% - 1024px) / 2) 0;
+  }
+  span.profile_card {
+      width: calc(calc(100% - 455px) - 1em);
+  }
+}
