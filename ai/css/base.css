@@ -10,6 +10,7 @@ html {
         font-size: 2em;
         color: #888;
     }
+a,a:visited{color: #888;}
 @media only screen and (min-width: 760px) {
     .base {
         width: 90%;
