@@ -3,6 +3,13 @@ html {
     background-image: url("../img/wave.svg");
     background-repeat: no-repeat;
 }
+ul#myTab {
+    width: 100%;
+}
+a#tab1-tab,a#tab2-tab {
+    width: fit-content;
+    border: none;
+}
 .personal img{
     width: 100%;
 }
@@ -10,7 +17,64 @@ html {
         font-size: 2em;
         color: #888;
     }
-a,a:visited{color: #888;}
+a,a:visited{color: #d2dae0;}
+/* tabs */
+.tab-container {
+    width: 100%;
+}
+
+.tab-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-list li {
+    margin-right: 10px;
+}
+
+.tab-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    background: #00000033;    
+    border-radius: 5px 5px 0;
+    width: auto;
+}
+
+.tab-link.active {
+    color: #2e6187;
+    border-bottom: 2px solid #2e6187;
+    width: auto;
+    background: #0000000d;
+    border-radius: 5px 5px 0;
+}
+
+.tab {
+    display: none;
+    padding: 10px;
+}
+
+.tab.active {
+    display: block;
+}
+
+/* tabs */
+
+.sosyal{
+    margin-left: auto;
+    display: inline-flex;
+    list-style-type: none;
+}
+svg.bi.bi-pinterest {
+    color: #e60023;
+}
+svg {
+    height: 1.5em;
+    width: auto;
+}
 @media only screen and (min-width: 760px) {
     .base {
         width: 90%;
