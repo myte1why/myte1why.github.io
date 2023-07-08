@@ -3,6 +3,9 @@ html {
     background-image: url("../img/wave.svg");
     background-repeat: no-repeat;
 }
+#container{
+    display: hidden;
+}
 ul#myTab {
     width: 100%;
 }
