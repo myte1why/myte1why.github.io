@@ -18,6 +18,10 @@ a#tab1-tab,a#tab2-tab {
         color: #888;
     }
 a,a:visited{color: #d2dae0;}
+#gallery-header-center {
+    width: 100%;
+    margin-left: 0;
+}
 /* tabs */
 .tab-container {
     width: 100%;
